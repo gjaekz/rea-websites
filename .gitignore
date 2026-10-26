@@ -1,0 +1,11 @@
+# Local research output
+research/
+**/evidence/
+**/captures/
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
