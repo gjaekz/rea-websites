@@ -17,7 +17,7 @@
 
 ## What it does
 
-REA Websites is a Codex skill for deep, evidence-led website reference research. It uses [Reverse Engineer Anything (REA)](https://github.com/morluto/rea) to inspect accessible pages and states, then records findings in a reusable knowledge base for an explicitly authorized recreation or comparison/refinement task.
+REA Websites is a Codex skill for deep, evidence-led research of complete reference websites and user-selected features. It uses [Reverse Engineer Anything (REA)](https://github.com/morluto/rea) to inspect accessible pages, components, and states, then records findings for an explicitly authorized recreation or comparison/refinement task.
 
 The skill covers all 16 research categories: overall visual identity; color system; structure and layout; header and navigation; buttons and interactive elements; cursor interactions; scrolling and animation; photography; typography; text animation; transitions and loading; hero; components and content sections; responsive design; performance and technical behavior; and microinteractions.
 
@@ -67,7 +67,7 @@ Install and configure REA independently before requesting REA-backed research; s
 | Technical behavior | Observable performance, loading stability, accessibility, and investigation limits |
 | Evidence and handoff | Coverage ledger, reusable knowledge base, implementation notes, and unknowns |
 
-The detailed 16-category checklist is in [`research-checklist.md`](skills/rea-websites/references/research-checklist.md).
+Full-site research uses the detailed 16-category checklist in [`research-checklist.md`](skills/rea-websites/references/research-checklist.md). For focused feature research, see the [main and targeted workflows](skills/rea-websites/references/REVERSE_ENGINEERING_WORKFLOW.md).
 
 ## Workflow
 
@@ -87,6 +87,11 @@ Research is the default for analysis requests. Finishing research alone never au
 ## Example prompts
 
 ```text
+Use $rea-websites to investigate the navigation menu on https://example.com, including how it opens and closes. Save the focused findings in ./research/example.
+```
+
+
+```text
 Use $rea-websites to research https://example.com and save the knowledge base in ./research/example.
 ```
 
@@ -102,7 +107,7 @@ The latter two requests explicitly authorize implementation in the stated scope.
 
 ## Example output
 
-A typical research directory contains a navigable index, a coverage status ledger, a color palette with provenance, and a recreation guide. The optional topic notes and screenshot folder below are illustrative examples; they are created only when findings and available evidence warrant them.
+Full-site research contains a navigable index, a coverage status ledger, a color palette with provenance, and a recreation guide. Targeted research adds a focused analysis and implementation guide to the existing research root; it does not require unrelated site-wide documents. See the [knowledge-base guide](skills/rea-websites/references/knowledge-base.md). The optional topic notes and screenshot folder below are illustrative examples; they are created only when findings and available evidence warrant them.
 
 ```text
 research/example/

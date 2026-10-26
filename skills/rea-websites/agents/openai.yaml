@@ -1,4 +1,4 @@
 interface:
   display_name: "REA Websites"
-  short_description: "Research sites with REA and preserve build-ready evidence"
-  default_prompt: "Use $rea-websites to research this reference site and save a reusable knowledge base."
+  short_description: "Research sites and selected features with REA evidence"
+  default_prompt: "Use $rea-websites to research this reference site or selected feature with REA and save reusable evidence."

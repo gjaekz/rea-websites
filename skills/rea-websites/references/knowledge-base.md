@@ -2,7 +2,9 @@
 
 Keep one navigable record per reference target in the user-selected output directory. Avoid parallel copies of the same findings. Create topic/page files only where the evidence warrants useful detail.
 
-## Required documents
+For full-site research, retain the four required documents below. For a targeted request, use `targeted_features/<feature>/ANALYSIS.md` and `targeted_features/<feature>/IMPLEMENTATION_GUIDE.md`, then add an entry to the shared `RESEARCH_INDEX.md` and update the shared `RESEARCH_STATUS.md`; do not create a per-feature index. Save screenshots and other evidence under that feature only when captured, and omit empty evidence folders. Keep the investigation scoped to the selected feature and its immediate dependencies; do not add broad unrelated site or palette documents just to satisfy the full-site scaffold. Link to shared tokens and existing findings.
+
+## Required documents for full-site research
 
 - `RESEARCH_INDEX.md` — canonical entrypoint: target URL/title, research date, scope, links to every created document and evidence folder, how to reuse the research during implementation, and important limitations.
 - `RESEARCH_STATUS.md` — coverage ledger for all 16 categories from `research-checklist.md`; status (covered/partial/inaccessible/unresolved), evidence links, and remaining questions.

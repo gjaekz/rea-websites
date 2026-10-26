@@ -1,6 +1,6 @@
 # Research checklist
 
-Use this checklist to scope and audit reference-site analysis. Cover all 16 categories; mark each applicable, partially covered, inaccessible, or unresolved in `RESEARCH_STATUS.md`. Do not imply completeness where the evidence is partial. Explore all accessible pages and relevant states, not just the first viewport. Use the target site's observed behavior and the actual REA capabilities available in the session.
+Use this checklist to scope and audit reference-site analysis. For full-site research, cover all 16 categories and mark each applicable, partially covered, inaccessible, or unresolved in `RESEARCH_STATUS.md`. For a targeted feature request, investigate only applicable dimensions of the selected target and its immediate dependencies; keep unrelated categories out of scope. Do not imply completeness where evidence is partial. Explore accessible relevant pages and states, not just the first viewport. Use the target site's observed behavior and the actual REA capabilities available in the session.
 
 ## Evidence standard
 
@@ -76,4 +76,4 @@ Hover timing, icons, borders/underlines, subtle color/brightness/opacity shifts,
 
 ## Coverage closeout
 
-For every category state whether it was inspected, the evidence supporting coverage, and gaps. Scope negative claims narrowly (what page, state, viewport, and method were checked). Do not claim every page/state was explored when access or time was bounded.
+For full-site research, state coverage and gaps for all 16 categories. For targeted research, state coverage only for applicable dimensions of the selected feature and its immediate dependencies. Support coverage with evidence, scope negative claims narrowly (page, state, viewport, and method), and do not claim every page/state was explored when access or time was bounded.
